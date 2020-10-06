@@ -1,0 +1,34 @@
+﻿<Window x:Class="Library.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="500" Width="400">
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="250*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="22*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <RadialGradientBrush Center="1,1" GradientOrigin="1,1" RadiusX="1" RadiusY="1">
+                <GradientStop Color="#FF92FAFF" Offset="0"/>
+                <GradientStop Color="#FFDFC7FB" Offset="1"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <Label x:Name="label" Content="Логин:" HorizontalAlignment="Left" Margin="58,160,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Arial" Grid.Column="1"/>
+        <Label x:Name="label_Copy" Content="Пароль:" HorizontalAlignment="Left" Margin="54,235,0,0" VerticalAlignment="Top" Height="36" Width="83" FontSize="20" FontFamily="Arial" RenderTransformOrigin="0.518,-0.389" Grid.Column="1"/>
+        <PasswordBox x:Name="Password__Box" HorizontalAlignment="Left" Margin="157,240,0,0" VerticalAlignment="Top" Width="165" Height="28" Grid.ColumnSpan="3" Grid.Column="1"/>
+        <TextBox x:Name="Login__Box" HorizontalAlignment="Left" Height="30" Margin="157,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="165" Grid.ColumnSpan="3" Grid.Column="1"/>
+        <Button x:Name="button" Content="Вход" HorizontalAlignment="Left" Margin="127,320,0,0" VerticalAlignment="Top" Width="125" Height="35" Background="#FF92FAFF" Grid.ColumnSpan="2" Grid.Column="1" Click="button_Click"/>
+        <Button x:Name="button_Copy" Content="Регистрация" HorizontalAlignment="Left" Margin="127,385,0,0" VerticalAlignment="Top" Width="125" Height="35" Background="#FF92FAFF" Grid.ColumnSpan="2" Grid.Column="1" Click="button_Copy_Click"/>
+        <Label x:Name="label_Copy1" Content="Авторизация" HorizontalAlignment="Left" Margin="97,46,0,0" VerticalAlignment="Top" FontSize="30
+               " FontFamily="Arial" Grid.Column="1" Grid.ColumnSpan="3" Width="200"/>
+
+    </Grid>
+</Window>
