@@ -5,8 +5,92 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Library"
         mc:Ignorable="d"
-        Title="Registration" Height="500" Width="400">
+        Title="Регистрация" Height="500" Width="400">
     <Grid>
-        
+        <Grid.Background>
+            <RadialGradientBrush GradientOrigin="1,1" Center="1,1" RadiusX="1" RadiusY="1">
+                <GradientStop Color="#FFD498DA" Offset="1"/>
+                <GradientStop Color="#FFFFEF4A"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="TextBox_FIO" HorizontalAlignment="Left" Height="40" Margin="50,56,0,0" TextWrapping="Wrap" Text="ФИО" Width="282" FontSize="20" FontFamily="Arial" OpacityMask="Black" VerticalAlignment="Top" TextAlignment="Center"  GotKeyboardFocus="TextBox_Enter" LostKeyboardFocus="TextBox_Leave" RenderTransformOrigin="0.514,0.225" BorderBrush="Black">
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FFA451D3" Offset="0"/>
+                    <GradientStop Color="#FF3A9717" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+            <TextBox.Background>
+                <RadialGradientBrush GradientOrigin="0.5,0">
+                    <GradientStop Color="#FFEDBAFF" Offset="0"/>
+                    <GradientStop Color="#FFC3F9FF" Offset="1"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="TextBox_Log" HorizontalAlignment="Left" Height="40" Margin="50,107,0,0" TextWrapping="Wrap" Text="Логин" Width="282" FontSize="20" FontFamily="Arial" OpacityMask="Black" VerticalAlignment="Top" TextAlignment="Center"  GotKeyboardFocus="TextBox_Enter" LostKeyboardFocus="TextBox_Leave" BorderBrush="Black">
+            <TextBox.Background>
+                <RadialGradientBrush GradientOrigin="0.5,0">
+                    <GradientStop Color="#FFEDBAFF" Offset="0"/>
+                    <GradientStop Color="#FFC3F9FF" Offset="1"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FFA451D3" Offset="0"/>
+                    <GradientStop Color="#FF3A9717" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+        </TextBox>
+        <TextBox x:Name="TextBox_Pas" HorizontalAlignment="Left" Height="40" Margin="50,159,0,0" TextWrapping="Wrap" Text="Пароль" Width="282" FontSize="20" FontFamily="Arial" OpacityMask="Black" VerticalAlignment="Top" TextAlignment="Center"  GotKeyboardFocus="TextBox_Enter" LostKeyboardFocus="TextBox_Leave" BorderBrush="Black">
+            <TextBox.Background>
+                <RadialGradientBrush GradientOrigin="0.5,0">
+                    <GradientStop Color="#FFEDBAFF" Offset="0"/>
+                    <GradientStop Color="#FFC3F9FF" Offset="1"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FFA451D3" Offset="0"/>
+                    <GradientStop Color="#FF3A9717" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+        </TextBox>
+        <TextBox x:Name="TextBox_Br" HorizontalAlignment="Left" Height="40" Margin="50,213,0,0" TextWrapping="Wrap" Text="Год_рождения" Width="282" FontSize="20" FontFamily="Arial" OpacityMask="Black" VerticalAlignment="Top" TextAlignment="Center"  GotKeyboardFocus="TextBox_Enter" LostKeyboardFocus="TextBox_Leave" BorderBrush="Black">
+            <TextBox.Background>
+                <RadialGradientBrush GradientOrigin="0.5,0">
+                    <GradientStop Color="#FFEDBAFF" Offset="0"/>
+                    <GradientStop Color="#FFC3F9FF" Offset="1"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FFA451D3" Offset="0"/>
+                    <GradientStop Color="#FF3A9717" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+        </TextBox>
+        <TextBox x:Name="TextBox_Tel" HorizontalAlignment="Left" Height="40" Margin="52,265,0,0" TextWrapping="Wrap" Text="Телефон" Width="282" FontSize="20" FontFamily="Arial" OpacityMask="Black" VerticalAlignment="Top" TextAlignment="Center"  GotKeyboardFocus="TextBox_Enter" LostKeyboardFocus="TextBox_Leave" BorderBrush="Black">
+            <TextBox.Background>
+                <RadialGradientBrush GradientOrigin="0.5,0">
+                    <GradientStop Color="#FFEDBAFF" Offset="0"/>
+                    <GradientStop Color="#FFC3F9FF" Offset="1"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FFA451D3" Offset="0"/>
+                    <GradientStop Color="#FF3A9717" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+        </TextBox>
+        <CheckBox x:Name="checkBox" Content="Работник__КПК" HorizontalAlignment="Left" Height="40" Margin="120,325,0,0" VerticalAlignment="Top" Width="165" RenderTransformOrigin="0.75,0.75" FontSize="20" FontFamily="Arial"/>
+        <Button x:Name="button" Content="Войти" HorizontalAlignment="Left" Height="35" Margin="110,375,0,0" VerticalAlignment="Top" Width="165" FontSize="20" FontFamily="Arial" Click="button_Click">
+            <Button.Background>
+                <RadialGradientBrush GradientOrigin="1,1" Center="1,1" RadiusX="1" RadiusY="1">
+                    <GradientStop Color="#FFF14DF9"/>
+                    <GradientStop Color="#FF54E8F7" Offset="1"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>

@@ -1,7 +1,6 @@
 C:\Users\4-1P9\source\repos\Library\Library\bin\Debug\Library.exe.config
 C:\Users\4-1P9\source\repos\Library\Library\bin\Debug\Library.exe
 C:\Users\4-1P9\source\repos\Library\Library\bin\Debug\Library.pdb
-C:\Users\4-1P9\source\repos\Library\Library\obj\Debug\Library.csprojAssemblyReference.cache
 C:\Users\4-1P9\source\repos\Library\Library\obj\Debug\MainWindow.g.cs
 C:\Users\4-1P9\source\repos\Library\Library\obj\Debug\App.g.cs
 C:\Users\4-1P9\source\repos\Library\Library\obj\Debug\Library_MarkupCompile.cache
@@ -160,3 +159,4 @@ C:\Users\4-1P9\source\repos\Library\Library\obj\Debug\Cabinets\AdminCabinet.g.cs
 C:\Users\4-1P9\source\repos\Library\Library\obj\Debug\Cabinets\AdminCabinet.baml
 C:\Users\4-1P9\source\repos\Library\Library\obj\Debug\Registration.g.cs
 C:\Users\4-1P9\source\repos\Library\Library\obj\Debug\Registration.baml
+C:\Users\4-1P9\source\repos\Library\Library\obj\Debug\Library.csprojAssemblyReference.cache

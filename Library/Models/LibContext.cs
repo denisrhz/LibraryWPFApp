@@ -38,5 +38,10 @@ namespace Library.Models
             };
             return users;
         }
+
+        public void CreateUser(string FIO, string Log, string Pas, int Br, string Tel, bool isColEmp)
+        {
+            //($"Insert into users values('{FIO}', '{Log}', '{Pas}', '{Br}', '{Tel}', '{isColEmp}')");
+        }
     }
 }
